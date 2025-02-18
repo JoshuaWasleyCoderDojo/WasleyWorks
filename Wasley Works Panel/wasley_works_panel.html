@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Wasley Works - Home</title>
+    <link rel="icon" type="image/x-icon" href="../images/Wasley_Works_v2.png">
+    <link rel="stylesheet" href="styles.css">
+    <script defer src="/scripts.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+</head>
+<body>
+    <header class="navbar">
+        <div class="logo">Wasley Works</div>
+        <nav>
+            <ul class="nav-links">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#team">Team</a></li>
+                <li><a href="#portfolio">Portfolio</a></li>
+                <li><a href="#testimonials">Testimonials</a></li>
+                <li><a href="#faq">FAQ</a></li>
+                <li><a href="#contact">Contact</a></li>
+                <li class="dropdown">
+                    <a href="javascript:void(0)" class="dropbtn">More</a>
+                    <div class="dropdown-content">
+                        <a href="#blog">Blog</a>
+                        <a href="#careers">Careers</a>
+                        <a href="#events">Events</a>
+                    </div>
+                </li>
+            </ul>
+            <div class="search-container">
+                <form class="example" action="action_page.php">
+                    <input type="text" placeholder="Search.." name="search">
+                    <button type="submit"><i class="fa fa-search"></i></button>
+                </form>
+            </div>
+            <div class="menu-toggle">
+                <div class="bar"></div>
+                <div class="bar"></div>
+                <div class="bar"></div>
+            </div>
+        </nav>
+    </header>
+    <main class="container">
+        <section id="home" class="section">
+            <h2>Welcome to Wasley Works</h2>
+            <p>This is the home section of the Wasley Works panel. Here you can find the latest updates and news about our services.</p>
+            <button onclick="showAlert('Going To About Page')">Learn More</button>
+        </section>
+        <section id="about" class="section">
+            <h2>About Us</h2>
+            <p>Wasley Works is dedicated to providing top-notch services to our clients. Our team of experts is here to help you achieve your goals.</p>
+            <button onclick="showAlert('About button clicked')">Read More</button>
+        </section>
+        <section id="services" class="section">
+            <h2>Our Services</h2>
+            <p>We offer a wide range of services to cater to your needs. From consulting to implementation, we've got you covered.</p>
+            <button onclick="showAlert('Services button clicked')">Explore Services</button>
+        </section>
+        <section id="team" class="section">
+            <h2>Meet Our Team</h2>
+            <p>Our team consists of experienced professionals dedicated to providing the best service possible.</p>
+            <div class="team-members">
+                <div class="team-member">
+                    <img src="images/Wasleyjo123.png" alt="CEO Wasleyjo123-Discord Profile">
+                    <h3>Joshua Wasley</h3>
+                    <strong><p>Rank: Chief Executive Officer</p></strong>
+                </div>
+                <div class="team-member">
+                    <img src="images/Wasleyjo123.png" alt="CEO Wasleyjo123-Discord Profile">
+                    <h3>Jane Smith</h3>
+                    <strong><p>Rank: Chief Financial Officer</p></strong>
+                </div>
+                <div class="team-member">
+                    <img src="images/Wasleyjo123.png" alt="CEO Wasleyjo123-Discord Profile">
+                    <strong><p>Rank: Chief Operating  Officer</p></strong>
+                </div>
+            </div>
+        </section>
+        <section id="portfolio" class="section">
+            <h2>Our Portfolio</h2>
+            <p>Take a look at some of our recent projects.</p>
+            <div class="portfolio-items">
+                <div class="portfolio-item">
+                    <img src="images/StarV4.png" alt="Project 1">
+                    <h3>Project 1</h3>
+                    <p><strong>Our Website</strong> We are working very hard to get our website done we are aiming to get it done before the 1/5/2025</p>
+                </div>
+                <div class="portfolio-item">
+                    <img src="images/StarOrg.png" alt="Project 2">
+                    <h3>Project 2</h3>
+                    <p><strong>Our Website</strong> We are working very hard to get our website done we are aiming to get it done before the 1/5/2025</p>
+                </div>
+                <div class="portfolio-item">
+                    <img src="images/StarV3.png" alt="Project 3">
+                    <h3>Project 3</h3>
+                    <p><strong>Our Website</strong> We are working very hard to get our website done we are aiming to get it done before the 1/5/2025</p>
+                </div>
+            </div>
+        </section>
+        <section id="testimonials" class="section">
+            <h2>Testimonials</h2>
+            <p>Read what our clients have to say about us.</p>
+            <div class="testimonials">
+                <div class="testimonial">
+                    <p>"Wasley Works provided exceptional service and exceeded our expectations. Highly recommend!"</p>
+                    <h3>- Client A</h3>
+                </div>
+                <div class="testimonial">
+                    <p>"The team at Wasley Works is professional, knowledgeable, and easy to work with."</p>
+                    <h3>- Client B</h3>
+                </div>
+                <div class="testimonial">
+                    <p>"We are extremely satisfied with the results delivered by Wasley Works."</p>
+                    <h3>- Client C</h3>
+                </div>
+            </div>
+        </section>
+        <section id="faq" class="section">
+            <h2>Frequently Asked Questions</h2>
+            <p>Here are some common questions and answers about our services.</p>
+            <div class="faq-items">
+                <div class="faq-item">
+                    <h3>What services do you offer?</h3>
+                    <p>We offer a wide range of services including consulting, implementation, and support.</p>
+                </div>
+                <div class="faq-item">
+                    <h3>How can I contact you?</h3>
+                    <p>You can contact us through the form in the Contact section or by emailing us directly at contact@wasleyworks.com.</p>
+                </div>
+                <div class="faq-item">
+                    <h3>What are your business hours?</h3>
+                    <p>Our business hours are Monday to Friday, 9 AM to 5 PM.</p>
+                </div>
+            </div>
+        </section>
+        <section id="contact" class="section contact-section">
+            <h2>Contact Us</h2>
+            <p>If you have any questions or need assistance, feel free to reach out to us. We're here to help!</p>
+            <div class="contact-container">
+                <form id="contact-form" action="send_email.php" method="POST" onsubmit="return validateForm()">
+                    <label for="name">Name:</label>
+                    <input type="text" id="name" name="name" required>
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email" required>
+                    <label for="message">Message:</label>
+                    <textarea id="message" name="message" required></textarea>
+                    <button type="submit">Send Message</button>
+                </form>
+                <div class="contact-info">
+                    <h3>Our Address</h3>
+                    <p>123 Business Road, Business City, BC 12345</p>
+                    <h3>Phone</h3>
+                    <p>+1-234-567-890</p>
+                    <h3>Email</h3>
+                    <p>info@wasleyworks.com</p>
+                    <div class="socials">
+                        <a href="#"><i class="fab fa-facebook"></i></a>
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                        <a href="#"><i class="fab fa-linkedin"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer class="footer">
+        <div class="footer-content">
+            <div class="footer-section about">
+                <h2 class="logo-text">Wasley Works</h2>
+                <p>Wasley Works is dedicated to providing top-notch services to our clients. Our team of experts is here to help you achieve your goals.</p>
+                <div class="contact">
+                    <span><i class="fas fa-phone"></i> &nbsp; +1-234-567-890</span>
+                    <span><i class="fas fa-envelope"></i> &nbsp; info@wasleyworks.com</span>
+                </div>
+                <div class="socials">
+                    <a href="#"><i class="fab fa-facebook"></i></a>
+                    <a href="#"><i class="fab fa-twitter"></i></a>
+                    <a href="#"><i class="fab fa-linkedin"></i></a>
+                    <a href="#"><i class="fab fa-instagram"></i></a>
+                </div>
+            </div>
+            <div class="footer-section links">
+                <h2>Quick Links</h2>
+                <ul>
+                    <a href="#"><li>Home</li></a>
+                    <a href="#"><li>About</li></a>
+                    <a href="#"><li>Services</li></a>
+                    <a href="#"><li>Team</li></a>
+                    <a href="#"><li>Portfolio</li></a>
+                    <a href="#"><li>Testimonials</li></a>
+                    <a href="#"><li>FAQ</li></a>
+                    <a href="#"><li>Contact</li></a>
+                </ul>
+            </div>
+            <div class="footer-section contact-form">
+                <h2>Contact Us</h2>
+                <form id="footer-contact-form" action="send_email.php" method="POST">
+                    <input type="email" name="email" class="text-input contact-input" placeholder="Your email address...">
+                    <textarea name="message" class="text-input contact-input" placeholder="Your message..."></textarea>
+                    <button type="submit" class="btn btn-big">
+                        <i class="fas fa-envelope"></i>
+                        Send
+                    </button>
+                </form>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            &copy; 2025 Wasley Works | Designed by Joshua Wasley
+        </div>
+    </footer>
+</body>
+
+</html>
